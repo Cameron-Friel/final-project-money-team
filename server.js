@@ -15,8 +15,7 @@ app.get('/main', function(req, res, next) //Renders main page for use
 {
   var peopleList = Object.keys(suspectData);
   var randMurderIndex = peopleList[Math.floor(Math.random() * peopleList.length)];
-  console.log(randMurderIndex);
-  
+
   var murderData = suspectData[randMurderIndex];
 
   var suspectArgs =
@@ -55,4 +54,4 @@ app.get('*', function (req, res) //If file is not found catches and displays 404
 app.listen(port, function ()
 {
   console.log("Server is running.", port);
-});
+}); 
