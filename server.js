@@ -14,16 +14,25 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/main', function(req, res, next) //Renders main page for use
 {
   var peopleList = Object.keys(suspectData);
-  var randMurder = peopleList[Math.floor(Math.random() * peopleList.length)];
-  console.log(randMurder);
-
+  var randMurderIndex = peopleList[Math.floor(Math.random() * peopleList.length)];
+  console.log(randMurderIndex);
+  for(var i=0; i<peopleList.length; i++)
+  {
+    console.log(suspectData[i]);
+    if(randMurderIndex === suspectData[i])
+    {
+      console.log(suspectData[i].hints[0]);
+    }
+  }
+/*
   var randMurderHints=
   {
     hint: randMurder
   }
-
+*/
   var suspectArgs =
   {
+    //suspectPeople: randMurder.hints,
     suspect: suspectData
   }
 

@@ -3,7 +3,12 @@
 <main class="mainContainer">
 
   <article class="subContainerOne">
-    {{> hint}}
+    <div class = "hint-container">
+        <p class = "hints-title">Hints Given: </p>
+          {{# each suspectPeople}}
+            {{> hint}}
+          {{/each}}
+    </div>
   </article>
 
   <article class="subContainerTwo">
