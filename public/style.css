@@ -59,10 +59,10 @@ body
 
 .mainContainer
 {
+
 }
 
 .subContainerOne{
-  max-width: 20%;
   display: inline-block;
 }
 
@@ -94,16 +94,26 @@ body
 .subContainerTwo
 {
   display: inline-block;
-  max-width: 75%;
+  width:1000px;
+  max-width: 70%;
   float: right;
 }
 
 .suspect-container
 {
   width: 30%;
-  height: 400px;
+  height: 200px;
   margin-left: 20px;
   border: solid black 5px;
   display:inline-block;
   margin: 5px;
+}
+
+/* For the About Page Styling */
+picture{
+  display: block;
+  margin: 0 auto;
+}
+p{
+font-size: 400px;
 }
