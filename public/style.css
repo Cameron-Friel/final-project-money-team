@@ -59,10 +59,12 @@ body
 
 .hint-container
 {
-  display: inline-block;
-  height: 600px;
+  /*display: inline-block;*/
+
+  height: auto;
   width: 250px;
   border: solid;
+  border-radius: 10%;
 }
 
 .hints-title
@@ -70,31 +72,21 @@ body
   font-size: 30px;
   padding: 0px;
   margin: 0px;
+  text-align: center;
 }
 
 .hints-guess
 {
   font-size: 20px;
-  padding-top: 80px;
+  padding-left: 10px;
+  /*padding-top: 40px; */
 }
-
-.container
-{
-  border: solid black 5px;
-}
-
 
 .suspect-container
 {
-  display: inline-block;
-  min-width: 200px;
-  height: 300px;
+  /*display: inline-block;*/
+  min-width: 1000px;
+  height: 400px;
   margin-left: 20px;
   border: solid;
-}
-
-img
-{
-  width: 100px;
-  height: 200px;
 }
