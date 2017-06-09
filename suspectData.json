@@ -2,7 +2,91 @@
   "Cameron":
   {
     "name": "Cameron",
+    "age": "22",
     "about": "Likes to play",
-    "url": "favicon.png"
+    "url": "favicon.png",
+    "hints": [
+      {
+        "hint": "Thinks he is quick.",
+      },
+      {
+        "hint": "Has eyes like royalty.",
+      },
+      {
+        "hint": "Is serious."
+      }
+    ]
+  },
+  "Rob":
+  {
+    "name": "Rob",
+    "age": "29",
+    "about": "Is a prof",
+    "url": "rob.png",
+    "hints": [
+      {
+        "hint": "Has brown hair.",
+      },
+      {
+        "hint": "Likes children.",
+      },
+      {
+        "hint": "Is white."
+      }
+    ]
+  },
+  "Lebron":
+  {
+    "name": "Lebron",
+    "age": "32",
+    "about": "Is a good player of the game.",
+    "url": "lebron.png",
+    "hints": [
+      {
+        "hint": "Makes bank.",
+      },
+      {
+        "hint": "Is buff.",
+      },
+      {
+        "hint": "Is black."
+      }
+    ]
+  },
+  "Alexandra":
+  {
+    "name": "Alexandra",
+    "age": "54",
+    "about": "Likes the beach.",
+    "url": "alexandra.png",
+    "hints": [
+      {
+        "hint": "Tanning is this person's lifestyle.",
+      },
+      {
+        "hint": "Is a girl.",
+      },
+      {
+        "hint": "Is older."
+      }
+    ]
+  },
+  "Melissa":
+  {
+    "name": "Melissa",
+    "age": "28",
+    "about": "Has super powers.",
+    "url": "melissa.png",
+    "hints": [
+      {
+        "hint": "Is a super duper girl.",
+      },
+      {
+        "hint": "Is a girl.",
+      },
+      {
+        "hint": "Is smiling."
+      }
+    ]
   }
 }
