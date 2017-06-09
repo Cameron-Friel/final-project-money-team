@@ -68,6 +68,7 @@ body
   border: solid;
   border-radius: 10%;
   display: inline-block;
+  position: fixed;
 }
 
 .hints-title
@@ -88,7 +89,7 @@ body
 {
   border: solid black 5px;
   display: inline-block;
-  max-width: 90%;
+  max-width: 70%;
   float: right;
 }
 
