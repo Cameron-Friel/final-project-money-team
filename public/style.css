@@ -59,16 +59,15 @@ body
 
 .mainContainer
 {
-  border: solid black 5px;
 }
 
 .hint-container
 {
-  display: inline-block;
-  height: 600px;
-  width: 20%;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 250px;
   border: solid;
-  float: left;
+  border-radius: 10%;
+  display: inline-block;
 }
 
 .hints-title
@@ -76,6 +75,7 @@ body
   font-size: 30px;
   padding: 0px;
   margin: 0px;
+  text-align: center;
 }
 
 .hints-guess
@@ -87,21 +87,16 @@ body
 .container
 {
   border: solid black 5px;
+  display: inline-block;
+  max-width: 90%;
   float: right;
-  width:70%;
 }
 
 .suspect-container
 {
-  display: inline-block;
-  min-width: 200px;
-  height: 300px;
+  width: 30%;
+  height: 400px;
   margin-left: 20px;
-  border: solid;
-}
-
-img
-{
-  width: 100px;
-  height: 200px;
+  border: solid black 5px;
+  display:inline-block;
 }

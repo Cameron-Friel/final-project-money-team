@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css" media="screen">
   <link rel = "shortcut icon" type = "image/png" href = "favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
 
 <body>
@@ -32,12 +33,11 @@
         <p class = "hints-guess">2.</p>
         <p class = "hints-guess">3.</p>
     </div>
-
     <div class="container">
       <div class = "suspect-container">
           <div class "person-container">
               {{# each suspect}}
-              <img src = >
+              <img src = "{{url}}">
               {{/each}}
           </div>
       </div>
@@ -51,9 +51,7 @@
       <div class = "suspect-container">
           <div class "person-container">
               {{# each suspect}}
-              <br />
               <img src = "{{url}}">
-              <br />
               {{/each}}
           </div>
       </div>
