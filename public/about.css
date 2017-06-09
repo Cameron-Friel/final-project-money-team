@@ -1,3 +1,61 @@
+body
+{
+  background-color: #ffe6e6;
+}
+
+.site-title
+{
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin: -10px -8px;
+  background-color:  #b30000;
+  color: #ff9999;
+}
+
+#title-logo
+{
+  display: block;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+#home-logo
+{
+  /*height: 100%;*/
+}
+
+.navlist
+{
+ list-style-type: none;
+ margin: 8px -8px;
+ padding: 0;
+ overflow: hidden;
+ background-color: #990000;
+}
+
+.navitem
+{
+  float: left;
+  border: solid;
+  font-style: 'helvetica-new';
+  font-size: 20px;
+}
+
+.navitem a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navitem a:hover
+{
+  color: white;
+  background-color: #ff9999;
+}
 .picture
 {
   text-align: center;
