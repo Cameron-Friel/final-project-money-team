@@ -11,7 +11,7 @@ app.set('view engine', 'handlebars');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/main', function(req, res, next)
+app.get('/main', function(req, res, next) //Renders main page for use
 {
   var suspectArgs =
   {
@@ -22,7 +22,7 @@ app.get('/main', function(req, res, next)
   res.status(200);
 });
 
-app.get('/suspects', function(req, res, next)
+app.get('/suspects', function(req, res, next) //Renders page which shows suspects
 {
   var suspectArgs =
   {
@@ -33,7 +33,13 @@ app.get('/suspects', function(req, res, next)
   res.status(200);
 });
 
-app.get('*', function (req, res)
+app.get('/about', function() //Renders about page
+{
+  res.render('about'); //{layout: 'about'} to be changed when we need a new css file!!!
+  res.status(200);
+});
+
+app.get('*', function (req, res) //If file is not found catches and displays 404 error
 {
   res.render('404Page');
   res.status(404);
