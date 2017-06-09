@@ -60,7 +60,7 @@ body
 .hint-container
 {
   /*display: inline-block;*/
-
+  font-family: 'Source Sans Pro', sans-serif;
   height: auto;
   width: 250px;
   border: solid;
