@@ -16,6 +16,7 @@ app.get('/main', function(req, res, next) //Renders main page for use
   var peopleList = Object.keys(suspectData);
   var randMurderIndex = peopleList[Math.floor(Math.random() * peopleList.length)];
   console.log(randMurderIndex);
+<<<<<<< HEAD
   console.log(suspectData[randMurderIndex])
   for(var i=0; i<peopleList.length; i++)
   {
@@ -33,9 +34,14 @@ app.get('/main', function(req, res, next) //Renders main page for use
     hint: randMurder
   }
 */
+=======
+
+  var murderData = suspectData[randMurderIndex];
+
+>>>>>>> 9e0c08ccb511b1d788d5ed8a89490d592e27f051
   var suspectArgs =
   {
-    //suspectPeople: randMurder.hints,
+    suspectPeople: murderData.hints,
     suspect: suspectData
   }
 
