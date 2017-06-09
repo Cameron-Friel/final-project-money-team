@@ -69,10 +69,11 @@ body
 .hint-container
 {
   font-family: 'Source Sans Pro', sans-serif;
-  width: 100%;
+  width: 20%;
   border: solid;
   border-radius: 10%;
   display: inline-block;
+  position: fixed;
 }
 
 .hints-title
@@ -93,7 +94,7 @@ body
 .subContainerTwo
 {
   display: inline-block;
-  max-width: 85%;
+  max-width: 75%;
   float: right;
 }
 
