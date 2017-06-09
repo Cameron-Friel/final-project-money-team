@@ -16,13 +16,16 @@ app.get('/main', function(req, res, next) //Renders main page for use
   var peopleList = Object.keys(suspectData);
   var randMurderIndex = peopleList[Math.floor(Math.random() * peopleList.length)];
   console.log(randMurderIndex);
+  console.log(suspectData[randMurderIndex])
   for(var i=0; i<peopleList.length; i++)
   {
-    console.log(suspectData[i]);
-    if(randMurderIndex === suspectData[i])
+    //console.log(Object.keys(suspectData)[i]);
+
+    if(randMurderIndex === Object.keys(suspectData)[randMurderIndex])
     {
-      console.log(suspectData[i].hints[0]);
+      //console.log(Object.keys(suspectData)[i].age);
     }
+
   }
 /*
   var randMurderHints=
