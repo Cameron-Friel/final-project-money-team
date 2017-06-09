@@ -37,7 +37,7 @@ body
 .navitem
 {
   float: left;
-  border: solid;
+  border: solid 1px;
   font-style: 'helvetica-new';
   font-size: 20px;
 }
@@ -122,4 +122,9 @@ img
 .personAge
 {
   text-align: center;
+}
+
+#picture
+{
+  height: 200px;
 }

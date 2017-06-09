@@ -35,11 +35,7 @@ app.get('/suspects', function(req, res, next) //Renders page which shows suspect
 
 app.get('/about', function(req, res, next) //Renders about page
 {
-<<<<<<< HEAD
-  res.render('about');
-=======
-  res.render('about'); 
->>>>>>> 7a6ce86a7d31cd15f8dcaeac3da40433229c8b7d
+  res.render('about')
   res.status(200);
 });
 
