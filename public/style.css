@@ -57,12 +57,18 @@ body
   background-color: #ff9999;
 }
 
+.mainContainer
+{
+  border: solid black 5px;
+}
+
 .hint-container
 {
   display: inline-block;
   height: 600px;
-  width: 250px;
+  width: 20%;
   border: solid;
+  float: left;
 }
 
 .hints-title
@@ -81,8 +87,9 @@ body
 .container
 {
   border: solid black 5px;
+  float: right;
+  width:70%;
 }
-
 
 .suspect-container
 {
