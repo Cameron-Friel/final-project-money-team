@@ -33,7 +33,7 @@ app.get('/suspects', function(req, res, next) //Renders page which shows suspect
   res.status(200);
 });
 
-app.get('/about', function() //Renders about page
+app.get('/about', function(req, res, next) //Renders about page
 {
   res.render('about'); //{layout: 'about'} to be changed when we need a new css file!!!
   res.status(200);
