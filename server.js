@@ -13,6 +13,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/main', function(req, res, next) //Renders main page for use
 {
+  var peopleList = Object.keys(suspectData);
+  var randMurder = peopleList[Math.floor(Math.random() * peopleList.length)];
+  console.log(randMurder);
+
+  var randMurderHints=
+  {
+    hint: randMurder
+  }
+
   var suspectArgs =
   {
     suspect: suspectData
