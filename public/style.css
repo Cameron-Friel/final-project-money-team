@@ -78,11 +78,23 @@ body
   padding-top: 80px;
 }
 
+.container
+{
+  border: solid black 5px;
+}
+
+
 .suspect-container
 {
   display: inline-block;
-  min-width: 1000px;
-  height: 400px;
+  min-width: 200px;
+  height: 300px;
   margin-left: 20px;
   border: solid;
+}
+
+img
+{
+  width: 100px;
+  height: 200px;
 }
