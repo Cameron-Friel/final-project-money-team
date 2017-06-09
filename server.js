@@ -35,7 +35,7 @@ app.get('/suspects', function(req, res, next) //Renders page which shows suspect
 
 app.get('/about', function(req, res, next) //Renders about page
 {
-  res.render('about');
+  res.render('about')
   res.status(200);
 });
 
