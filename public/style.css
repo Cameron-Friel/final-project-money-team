@@ -108,3 +108,12 @@ body
   display:inline-block;
   margin: 5px;
 }
+
+/* For the About Page Styling */
+picture{
+  display: block;
+  margin: 0 auto;
+}
+p{
+font-size: 400px;
+}
