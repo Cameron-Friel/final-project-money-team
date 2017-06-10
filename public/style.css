@@ -109,6 +109,7 @@ body
 .suspect-container:hover
 {
   background-color: #b30000;
+  cursor: pointer;
 }
 
 
