@@ -140,3 +140,15 @@ body
   display: block;
   margin: auto;
 }
+
+.suspects-info
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.aboutPerson
+{
+  text-align: center;
+  font-weight: bold;
+}

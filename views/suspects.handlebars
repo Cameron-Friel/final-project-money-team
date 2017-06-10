@@ -1,0 +1,14 @@
+{{> header}}
+
+<article class="subContainerOne">
+  <div class = "hint-container">
+      <p class = "hints-title"> About Suspects </p>
+      <p class= "suspects-info">This page has all the information about each suspect in the game.</p>
+  </div>
+</article>
+
+<article class="subContainerTwo">
+  {{# each suspect}}
+    {{> aboutSuspect}}
+  {{/each}}
+</article>
