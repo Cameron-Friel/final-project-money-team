@@ -104,6 +104,12 @@ body
   margin: 5px;
 }
 
+.suspect-container:hover
+{
+  background-color: #b30000;
+}
+
+
 img
 {
   padding-top: 10px;
@@ -117,11 +123,13 @@ img
 .personName
 {
   text-align: center;
+  font-weight: bold;
 }
 
 .personAge
 {
   text-align: center;
+  font-weight: bold;
 }
 
 #picture
