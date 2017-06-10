@@ -14,13 +14,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/main', function(req, res, next) //Renders main page for use
 {
   var peopleList = Object.keys(suspectData);
-  var randMurderIndex = peopleList[Math.floor(Math.random() * peopleList.length)];
+  var index = Math.floor(Math.random() * peopleList.length)
+  var randMurderIndex = peopleList[index];
 
   var murderData = suspectData[randMurderIndex];
+
+  console.log(murderData);
 
   var suspectArgs =
   {
     suspectPeople: murderData.hints,
+    murdererIndex: index,
     suspect: suspectData
   }
 
@@ -54,4 +58,4 @@ app.get('*', function (req, res) //If file is not found catches and displays 404
 app.listen(port, function ()
 {
   console.log("Server is running.", port);
-}); 
+});
