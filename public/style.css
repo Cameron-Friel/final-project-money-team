@@ -152,3 +152,9 @@ body
   text-align: center;
   font-weight: bold;
 }
+
+.paragraph-container
+{
+  padding-left: 50px;
+  padding-right: 50px;
+}
