@@ -137,4 +137,6 @@ body
 .about-picture
 {
   height: 200px;
+  display: block;
+  margin: auto;
 }
