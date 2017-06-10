@@ -69,6 +69,7 @@ body
   border-radius: 10%;
   display: inline-block;
   position: fixed;
+  margin-left: 10px;
 }
 
 .hints-title
@@ -84,6 +85,7 @@ body
   font-size: 20px;
   margin-top: 25px;
   margin-bottom: 25px;
+  margin-left: 10px;
 }
 
 .subContainerTwo
