@@ -20,7 +20,9 @@ function guessSuspect(i) //function to delete suspects as they are clicked
 
     if (counter == 2 && murderIndex != i)
     {
-      location.href = "404Page";
+      alert('Sorry You LOSE!');
+      location.reload();
+      //location.href = "404Page";
     }
     counter++; //Increment for each guess that is wrong
 
