@@ -5,6 +5,7 @@
     "age": "22",
     "about": "Likes to play",
     "url": "favicon.png",
+    "murderer": 0,
     "hints": [
       {
         "hint": "1. Thinks he is quick."
@@ -23,6 +24,7 @@
     "age": "29",
     "about": "Is a prof",
     "url": "rob.png",
+    "murderer": 0,
     "hints": [
       {
         "hint": "1. Has brown hair."
@@ -41,6 +43,7 @@
     "age": "32",
     "about": "Is a good player of the game.",
     "url": "lebron.png",
+    "murderer": 0,
     "hints": [
       {
         "hint": "1. Makes bank."
@@ -59,6 +62,7 @@
     "age": "54",
     "about": "Likes the beach.",
     "url": "alexandra.png",
+    "murderer": 0,
     "hints": [
       {
         "hint": "1. Tanning is this person's lifestyle."
@@ -77,6 +81,7 @@
     "age": "28",
     "about": "Has super powers.",
     "url": "melissa.png",
+    "murderer": 0,
     "hints": [
       {
         "hint": "1. Is a super duper girl."

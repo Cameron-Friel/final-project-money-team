@@ -1,6 +1,7 @@
 var path = require('path');
 var express = require('express');
 var exphbs = require('express-handlebars');
+var fs = require('fs');
 
 var suspectData = require('./suspectData');
 var app = express();
@@ -20,6 +21,11 @@ app.get('/main', function(req, res, next) //Renders main page for use
   var murderData = suspectData[randMurderIndex];
 
   console.log(murderData);
+
+  suspectData[randMurderIndex].murderer +=1;
+
+  console.log(murderData);
+
 
   var suspectArgs =
   {
