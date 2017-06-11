@@ -140,6 +140,7 @@ body
   height: 200px;
   display: block;
   margin: auto;
+  padding-bottom: 20px;
 }
 
 .suspects-info
@@ -156,6 +157,13 @@ body
 
 .paragraph-container
 {
-  padding-left: 50px;
-  padding-right: 50px;
+  border: 2px #e6e6e6;
+  box-shadow: 10px 10px 5px #999999;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px;
+  background-color: #fff2e6;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
 }
