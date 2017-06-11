@@ -5,7 +5,7 @@ var counter = 0; //var to keep track of how many guesses user has used up (max =
 suspects[murderIndex].addEventListener('click', function()
 {
   alert('Congratulations! You Won!');
-  location.href = "about"; //WE WANT THIS TO ROUTE TO WINNER PAGE SENDING MURDERER DATA TO PAGE!
+  location.href = "statistics"; //WE WANT THIS TO ROUTE TO WINNER PAGE SENDING MURDERER DATA TO PAGE!
 });
 
 for (var i = suspects.length - 1; i >= 0; i--)

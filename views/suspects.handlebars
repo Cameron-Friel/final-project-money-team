@@ -1,13 +1,16 @@
 {{> header}}
 
-<article class="subContainerOne">
-  <div class = "hint-container">
-      <p class = "hints-title"> About Suspects </p>
-      <p class= "suspects-info">This page has all the information about each suspect in the game.</p>
-  </div>
-</article>
+<div class="aboutContainer">
+  <article class="subContainerOne">
+    <div class = "hint-container">
+        <p class = "hints-title"> About Suspects </p>
+        <p class= "suspects-info">This page has all the information about each suspect in the game.
+        You can also add a suspect to the list by clicking the 'Create Suspect' button below.</p>
+    </div>
+  </article>
 
-<button id = "add-suspect-button">Create Suspect</button>
+  <button id = "add-suspect-button">Create Suspect</button>
+</div>
 
 <article class="subContainerTwo">
   {{# each suspect}}

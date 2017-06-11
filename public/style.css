@@ -135,6 +135,12 @@ body
   font-weight: bold;
 }
 
+.personConviction
+{
+  text-align: center;
+  font-weight: bold;
+}
+
 .about-picture
 {
   height: 200px;
@@ -170,6 +176,11 @@ body
 
 /*Suspect.handlebars css*/
 
+.aboutContainer
+{
+  position: fixed;
+}
+
 #add-suspect-button
 {
   width: 250px;
@@ -183,8 +194,8 @@ body
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   border-radius: 10px;
-
 }
+
 #add-suspect-button:hover
 {
   cursor: pointer;
@@ -219,6 +230,8 @@ body
   cursor: pointer;
   opacity: .5;
 }
+
+
 /*
 .middle {
   transition: .5s ease;
