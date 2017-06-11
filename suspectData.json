@@ -112,5 +112,24 @@
         "hint": "3. This person was born in the United States."
       }
     ]
+  },
+  "Oj":
+  {
+    "name": "Oj",
+    "age": "69",
+    "about": "If gloves don't fit you gotta aquit.",
+    "url": "oj.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "1. Is black."
+      },
+      {
+        "hint": "2. Played professional football, not soccer."
+      },
+      {
+        "hint": "3. Is huge."
+      }
+    ]
   }
 }
