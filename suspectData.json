@@ -93,5 +93,24 @@
         "hint": "3. Is smiling."
       }
     ]
+  },
+  "Kanye":
+  {
+    "name": "Kanye",
+    "age": "40",
+    "about": "Self professed God.",
+    "url": "kanye.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "1. You wish you were them."
+      },
+      {
+        "hint": "2. Creates music."
+      },
+      {
+        "hint": "3. This person was born in the United States."
+      }
+    ]
   }
 }
