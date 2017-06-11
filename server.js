@@ -26,10 +26,10 @@ app.get('/main', function(req, res, next) //Renders main page for use
 
   console.log(murderData);
 
-
   var suspectArgs =
   {
     suspectPeople: murderData.hints,
+    murdererName: JSON.stringify(murderData),
     murdererIndex: index,
     suspect: suspectData
   }
@@ -51,7 +51,40 @@ app.get('/suspects', function(req, res, next) //Renders page which shows suspect
 
 app.get('/about', function(req, res, next) //Renders about page
 {
-  res.render('about')
+  res.render('about');
+  res.status(200);
+});
+
+app.get('/statistics', function(req, res, next)
+{
+  var peopleList = Object.keys(suspectData);
+
+  var leadersArray = []; //initilize storage for convicts
+
+  for (var i = 0; i < peopleList.length; i++)
+  {
+    leadersArray[i] = suspectData[peopleList[i]]; //populate with suspect's data
+  }
+
+  for (var i = 0; i < peopleList.length; i++) //bubble sort the suspects in order of greatest murder rate
+  {
+    for (var j = 0; j < peopleList.length - i - 1; j++)
+    {
+      if (leadersArray[j].murderer < leadersArray[j + 1].murderer)
+      {
+        var temp = leadersArray[j];
+        leadersArray[j] = leadersArray[j + 1];
+        leadersArray[j + 1] = temp;
+      }
+    }
+  }
+
+  var suspectArgs =
+  {
+    suspect: leadersArray
+  }
+
+  res.render('statistics', suspectArgs);
   res.status(200);
 });
 
