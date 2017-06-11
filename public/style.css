@@ -167,3 +167,12 @@ body
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px;
 }
+
+/*Suspect.handlebars css*/
+
+#add-suspect-button
+{
+  width: 250px;
+  position: fixed;
+  position: relative;
+}
