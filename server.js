@@ -22,7 +22,7 @@ app.get('/main', function(req, res, next) //Renders main page for use
 
   console.log(murderData);
 
-  suspectData[randMurderIndex].murderer +=1;
+  murderData.murderer +=1;
 
   console.log(murderData);
 
