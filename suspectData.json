@@ -1,20 +1,20 @@
 {
   "Cameron":
   {
-    "name": "Cameron",
-    "age": "22",
-    "about": "Likes to play",
-    "url": "favicon.png",
+    "name": "Obama",
+    "age": "55",
+    "about": "44th US President",
+    "url": "obama.png",
     "murderer": 0,
     "hints": [
       {
-        "hint": "1. Thinks he is quick."
+        "hint": "1. Born in Hawaii"
       },
       {
-        "hint": "2. Has eyes like royalty."
+        "hint": "2. Attended Harvard"
       },
       {
-        "hint": "3. Is serious."
+        "hint": "3. Lived in a house that was very white"
       }
     ]
   },
@@ -22,7 +22,7 @@
   {
     "name": "Rob",
     "age": "29",
-    "about": "Is a prof",
+    "about": "Professor at Oregon State University",
     "url": "rob.png",
     "murderer": 0,
     "hints": [
@@ -30,10 +30,10 @@
         "hint": "1. Has brown hair."
       },
       {
-        "hint": "2. Likes children."
+        "hint": "2. Likes cats"
       },
       {
-        "hint": "3. Is white."
+        "hint": "3. Teaches CS 290"
       }
     ]
   },
@@ -41,37 +41,37 @@
   {
     "name": "Lebron",
     "age": "32",
-    "about": "Is a good player of the game.",
+    "about": "NFL Player",
     "url": "lebron.png",
     "murderer": 0,
     "hints": [
       {
-        "hint": "1. Makes bank."
+        "hint": "1. Has 3 championship rings"
       },
       {
-        "hint": "2. Is buff."
+        "hint": "2. He is 6' 8''"
       },
       {
-        "hint": "3. Is black."
+        "hint": "3. Has own line of shoes"
       }
     ]
   },
   "Alexandra":
   {
     "name": "Alexandra",
-    "age": "54",
-    "about": "Likes the beach.",
+    "age": "31",
+    "about": "American Actress",
     "url": "alexandra.png",
     "murderer": 0,
     "hints": [
       {
-        "hint": "1. Tanning is this person's lifestyle."
+        "hint": "1. Starred in Baywatch"
       },
       {
-        "hint": "2. Is a girl."
+        "hint": "2. Nominated for Teen Choice Award"
       },
       {
-        "hint": "3. Is older."
+        "hint": "3. Has brown hair."
       }
     ]
   },
@@ -79,18 +79,18 @@
   {
     "name": "Melissa",
     "age": "28",
-    "about": "Has super powers.",
+    "about": "American Actress and Singer",
     "url": "melissa.png",
     "murderer": 0,
     "hints": [
       {
-        "hint": "1. Is a super duper girl."
+        "hint": "1. Starred in new TV show 'Supergirl'"
       },
       {
-        "hint": "2. Is a girl."
+        "hint": "2. Married to Blake Jenner"
       },
       {
-        "hint": "3. Is smiling."
+        "hint": "3. Starred in TV show 'GLEE'"
       }
     ]
   },
@@ -98,18 +98,18 @@
   {
     "name": "Kanye",
     "age": "40",
-    "about": "Self professed God.",
+    "about": "Rapper, Songwriter, Entrepreneur",
     "url": "kanye.png",
     "murderer": 0,
     "hints": [
       {
-        "hint": "1. You wish you were them."
+        "hint": "1. Has received 21 Grammy Awards"
       },
       {
-        "hint": "2. Creates music."
+        "hint": "2. Has own pair of shoe line"
       },
       {
-        "hint": "3. This person was born in the United States."
+        "hint": "3. Has a net worth of $160 million"
       }
     ]
   },
@@ -117,18 +117,113 @@
   {
     "name": "Oj",
     "age": "69",
-    "about": "If gloves don't fit you gotta aquit.",
+    "about": "Ex-NFL Player",
     "url": "oj.png",
     "murderer": 0,
     "hints": [
       {
-        "hint": "1. Is black."
+        "hint": "1. Is currently residing in prison"
       },
       {
-        "hint": "2. Played professional football, not soccer."
+        "hint": "2. Has a TV based on one's life"
       },
       {
-        "hint": "3. Is huge."
+        "hint": "3. Played for the Buffalo Bills"
+      }
+    ]
+  },
+  "Kevin":
+  {
+    "name": "Kevin",
+    "age": "37",
+    "about": "American Actor and Comedian",
+    "url": "kevin.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "1. Starred in Ride Along"
+      },
+      {
+        "hint": "2. Height of 5' 4''"
+      },
+      {
+        "hint": "3. Has black hair"
+      }
+    ]
+  },
+  "Mark":
+  {
+    "name": "Mark",
+    "age": "33",
+    "about": "Co-Founder of Facebook",
+    "url": "mark.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "1. Dropped out of college"
+      },
+      {
+        "hint": "2. Has a net worth of $62.4 billion"
+      },
+      {
+        "hint": "3. Has brown hair"
+      }
+    ]
+  },
+  "Bill":
+  {
+    "name": "Bill",
+    "age": "61",
+    "about": "Co-Founder of Microsoft",
+    "url": "bill.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "1. Dropped out of Harvard"
+      },
+      {
+        "hint": "2. Has a net worth of $89.1 billion"
+      },
+      {
+        "hint": "3. Born in Seattle"
+      }
+    ]
+  },
+  "Roger":
+  {
+    "name": "Roger",
+    "age": "35",
+    "about": "Professional Tennis Player",
+    "url": "roger.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "1. Born in Switzerland"
+      },
+      {
+        "hint": "2. Sponsored by Nike"
+      },
+      {
+        "hint": "3. Has a net worth of $400 million"
+      }
+    ]
+  },
+  "Leo":
+  {
+    "name": "Leonardo",
+    "age": "42",
+    "about": "American Actor",
+    "url": "leo.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "1. Has won the Oscars"
+      },
+      {
+        "hint": "2. Starred in Titanic"
+      },
+      {
+        "hint": "3. Is an enviormental activist"
       }
     ]
   }
