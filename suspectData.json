@@ -1,1 +1,222 @@
-{"Obama":{"name":"Obama","age":"55","about":"44th US President","url":"obama.png","murderer":0,"hints":[{"hint":"1. Born in Hawaii"},{"hint":"2. Attended Harvard"},{"hint":"3. Lived in a house that was very white"}]},"Rob":{"name":"Rob","age":"29","about":"Professor at Oregon State University","url":"rob.png","murderer":0,"hints":[{"hint":"1. Has brown hair."},{"hint":"2. Likes cats"},{"hint":"3. Teaches CS 290"}]},"Lebron":{"name":"Lebron","age":"32","about":"NBA Player","url":"lebron.png","murderer":0,"hints":[{"hint":"1. Has 3 championship rings"},{"hint":"2. He is 6' 8''"},{"hint":"3. Has own line of shoes"}]},"Alexandra":{"name":"Alexandra","age":"31","about":"American Actress","url":"alexandra.png","murderer":1,"hints":[{"hint":"1. Starred in Baywatch"},{"hint":"2. Nominated for Teen Choice Award"},{"hint":"3. Has brown hair."}]},"Melissa":{"name":"Melissa","age":"28","about":"American Actress and Singer","url":"melissa.png","murderer":0,"hints":[{"hint":"1. Starred in new TV show 'Supergirl'"},{"hint":"2. Married to Blake Jenner"},{"hint":"3. Starred in TV show 'GLEE'"}]},"Kanye":{"name":"Kanye","age":"40","about":"Rapper, Songwriter, Entrepreneur","url":"kanye.png","murderer":0,"hints":[{"hint":"1. Has received 21 Grammy Awards"},{"hint":"2. Has own pair of shoe line"},{"hint":"3. Has a net worth of $160 million"}]},"Oj":{"name":"Oj","age":"69","about":"Ex-NFL Player","url":"oj.png","murderer":0,"hints":[{"hint":"1. Is currently residing in prison"},{"hint":"2. Has a TV based on one's life"},{"hint":"3. Played for the Buffalo Bills"},{"hint":"Went to to the University of Southern California"}]},"Kevin":{"name":"Kevin","age":"37","about":"American Actor and Comedian","url":"kevin.png","murderer":0,"hints":[{"hint":"1. Starred in Ride Along"},{"hint":"2. Height of 5' 4''"},{"hint":"3. Has black hair"}]},"Mark":{"name":"Mark","age":"33","about":"Co-Founder of Facebook","url":"mark.png","murderer":0,"hints":[{"hint":"1. Dropped out of college"},{"hint":"2. Has a net worth of $62.4 billion"},{"hint":"3. Has brown hair"}]},"Bill":{"name":"Bill","age":"61","about":"Co-Founder of Microsoft","url":"bill.png","murderer":0,"hints":[{"hint":"1. Dropped out of Harvard"},{"hint":"2. Has a net worth of $89.1 billion"},{"hint":"3. Born in Seattle"}]},"Roger":{"name":"Roger","age":"35","about":"Professional Tennis Player","url":"roger.png","murderer":0,"hints":[{"hint":"1. Born in Switzerland"},{"hint":"2. Sponsored by Nike"},{"hint":"3. Has a net worth of $400 million"}]},"Leo":{"name":"Leonardo","age":"42","about":"American Actor","url":"leo.png","murderer":0,"hints":[{"hint":"1. Has won the Oscars"},{"hint":"2. Starred in Titanic"},{"hint":"3. Is an enviormental activist"}]}}
+{
+  "Obama": {
+    "name": "Obama",
+    "age": "55",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "obama.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "Born in Hawaii"
+      },
+      {
+        "hint": "Attended Harvard"
+      },
+      {
+        "hint": "Lived in a house that was very white"
+      }
+    ]
+  },
+  "Rob": {
+    "name": "Rob",
+    "age": "29",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "rob.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "Has brown hair."
+      },
+      {
+        "hint": "Likes cats"
+      },
+      {
+        "hint": "Teaches CS 290"
+      }
+    ]
+  },
+  "Lebron": {
+    "name": "Lebron",
+    "age": "32",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "lebron.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "Has 3 championship rings"
+      },
+      {
+        "hint": "He is 6' 8''"
+      },
+      {
+        "hint": "Has own line of shoes"
+      }
+    ]
+  },
+  "Alexandra": {
+    "name": "Alexandra",
+    "age": "31",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "alexandra.png",
+    "murderer": 1,
+    "hints": [
+      {
+        "hint": "Starred in Baywatch"
+      },
+      {
+        "hint": "Nominated for Teen Choice Award"
+      },
+      {
+        "hint": "Has brown hair."
+      }
+    ]
+  },
+  "Melissa": {
+    "name": "Melissa",
+    "age": "28",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "melissa.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "Starred in new TV show 'Supergirl'"
+      },
+      {
+        "hint": "Married to Blake Jenner"
+      },
+      {
+        "hint": "Starred in TV show 'GLEE'"
+      }
+    ]
+  },
+  "Kanye": {
+    "name": "Kanye",
+    "age": "40",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "kanye.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "Has received 21 Grammy Awards"
+      },
+      {
+        "hint": "Has own pair of shoe line"
+      },
+      {
+        "hint": "Has a net worth of $160 million"
+      }
+    ]
+  },
+  "Oj": {
+    "name": "Oj",
+    "age": "69",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "oj.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "Is currently residing in prison"
+      },
+      {
+        "hint": "Has a TV based on one's life"
+      },
+      {
+        "hint": "Played for the Buffalo Bills"
+      },
+      {
+        "hint": "Went to to the University of Southern California"
+      }
+    ]
+  },
+  "Kevin": {
+    "name": "Kevin",
+    "age": "37",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "kevin.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "Starred in Ride Along"
+      },
+      {
+        "hint": "Height of 5' 4''"
+      },
+      {
+        "hint": "Has black hair"
+      }
+    ]
+  },
+  "Mark": {
+    "name": "Mark",
+    "age": "33",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "mark.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "Dropped out of college"
+      },
+      {
+        "hint": "Has a net worth of $62.4 billion"
+      },
+      {
+        "hint": "Has brown hair"
+      }
+    ]
+  },
+  "Bill": {
+    "name": "Bill",
+    "age": "61",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "bill.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "Dropped out of Harvard"
+      },
+      {
+        "hint": "Has a net worth of $89.1 billion"
+      },
+      {
+        "hint": "Born in Seattle"
+      }
+    ]
+  },
+  "Roger": {
+    "name": "Roger",
+    "age": "35",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "roger.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "Born in Switzerland"
+      },
+      {
+        "hint": "Sponsored by Nike"
+      },
+      {
+        "hint": "Has a net worth of $400 million"
+      }
+    ]
+  },
+  "Leo": {
+    "name": "Leonardo",
+    "age": "42",
+    "about": "Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.",
+    "url": "leo.png",
+    "murderer": 0,
+    "hints": [
+      {
+        "hint": "Has won the Oscars"
+      },
+      {
+        "hint": "Starred in Titanic"
+      },
+      {
+        "hint": "Is an enviormental activist"
+      }
+    ]
+  }
+}
+>>>>>>> ef1345a4d39a8ea531f7d0a34b0bd50f36b4c92b
