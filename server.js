@@ -139,6 +139,7 @@ app.get('/suspectInfo/:suspect', function(req, res, next)
     {
       name: singleData.name,
       url: singleData.url,
+      about: singleData.about,
       suspect: singleData,
       suspects: suspectsArray
     }
