@@ -1,1 +1,1 @@
-Everything needs fixing.
+Welcome to "Guess the Murder", the crime-solving, heart-pounding thriller presented by Vincent Ta, Cameron Friel, and Kyle Andrews. You are an investigator, and your goal is to identify the murderer given three hints. You have three tries to convict the culprit. Each time you guess incorrectly, the suspect is removed to improve your chances. Good luck!
