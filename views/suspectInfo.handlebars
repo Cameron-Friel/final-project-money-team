@@ -1,0 +1,37 @@
+{{> header}}
+
+<main class = "suspect-page">
+
+  <div class = "suspect-title">
+    <h2>More About {{name}} <h2>
+    <img src = "../{{url}}">
+  </div>
+  <p> Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.Lorem ipsum dolor sit amet, cu illud semper albucius nec, ius ei nonumes phaedrum recusabo, perpetua consequat necessitatibus te vix. At sed vidit mutat quaeque, congue nullam ius ut. Feugait dissentiunt at cum, no sea aeque intellegam, in est debitis deleniti. Cu sea quot vituperatoribus. Et habeo audire eripuit vim, adhuc constituto ut pri.</p>
+  <div class = "suspect-about-body">
+    <button id = "add-suspect-button">Add Hint</button>
+  </div>
+
+    <div id="modal-backdrop" class="hidden"></div>
+    <div id="create-twit-modal" class="hidden">
+      <div class="modal-dialog">
+
+        <div class="modal-header">
+          <h3>Add Hint for {{name}}</h3>
+          <button type="button" class="modal-close-button">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          <div class="twit-input-element">
+            <label for="twit-text-input">New Hint:</label>
+            <textarea id="twit-text-input"></textarea>
+          </div>
+
+        <div class="modal-footer">
+          <button type="button" class="modal-cancel-button">Cancel</button>
+          <button type="button" class="modal-accept-button">Add Hint!</button>
+        </div>
+
+      </div>
+    </div>
+
+</main>
