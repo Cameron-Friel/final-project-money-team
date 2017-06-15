@@ -9,7 +9,25 @@
             {{> hint}}
           {{/each}}
         <p class = "hints-title">Guesses left: </p>
-        
+
+<!--
+              <ul class="xlist">
+                <li><img src = "x.png" class = "x-mark1"></li>
+                <li><img src = "x.png" class = "x-mark2"></li>
+                <li><img src = "x.png" class = "x-mark3"></li>
+              </ul>
+-->
+      <div class="bigBox">
+        <div class="boxContainer">
+          <img src = "x.png" class = "x-mark1">
+        </div>
+        <div class="boxContainer">
+          <img src = "x.png" class = "x-mark2">
+        </div>
+        <div class="boxContainer">
+          <img src = "x.png" class = "x-mark3">
+        </div>
+      </div>
     </div>
   </article>
 
@@ -18,6 +36,9 @@
       {{> suspect}}
     {{/each}}
   </article>
+
+
+
 
   <script> var murderIndex = {{murdererIndex}};</script>
   <script src="main.js" charset="utf-8"></script>
