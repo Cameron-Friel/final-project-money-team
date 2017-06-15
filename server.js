@@ -49,6 +49,21 @@ app.get('/suspects', function(req, res, next) //Renders page which shows suspect
   res.status(200);
 });
 
+app.get('/suspect/:suspect', function(req, res, next)
+{
+  var suspect = req.params.suspect;
+  var singleData = suspectData[suspect];
+
+  if (singleData)
+  {
+    res.render('suspect');
+  }
+  else
+  {
+    next();
+  }
+});
+
 app.get('/about', function(req, res, next) //Renders about page
 {
   res.render('about');

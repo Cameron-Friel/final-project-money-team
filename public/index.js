@@ -38,6 +38,22 @@ function guessSuspect(i) //function to delete suspects as they are clicked
   };
 }
 
+function addX()
+{
+  if (counter == 0)
+  {
+
+  }
+  else if (counter == 1)
+  {
+
+  }
+  else if (counter == 2)
+  {
+
+  }
+}
+
 window.addEventListener('DOMContentLoaded', function () {
 
   var temp = document.getElementsByClassName('suspect-container'); //hold suspect containers

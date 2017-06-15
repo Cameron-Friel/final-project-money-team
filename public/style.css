@@ -127,12 +127,14 @@ body
 {
   text-align: center;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .personAge
 {
   text-align: center;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .personConviction
@@ -159,6 +161,7 @@ body
 {
   text-align: center;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .paragraph-container
@@ -186,7 +189,7 @@ body
   width: 250px;
   height: 50px;
   left: 10px;
-  top: 200px;
+  top: 220px;
   position: fixed;
   position: relative;
   background-color: #ff0000;
