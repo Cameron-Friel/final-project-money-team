@@ -1,5 +1,5 @@
 {
-  "Cameron":
+  "Obama":
   {
     "name": "Obama",
     "age": "55",
@@ -41,7 +41,7 @@
   {
     "name": "Lebron",
     "age": "32",
-    "about": "NFL Player",
+    "about": "NBA Player",
     "url": "lebron.png",
     "murderer": 0,
     "hints": [
