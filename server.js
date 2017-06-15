@@ -16,28 +16,45 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/main', function(req, res, next) //Renders main page for use
 {
-  var peopleList = Object.keys(suspectData);
-  var index = Math.floor(Math.random() * peopleList.length)
-  var randMurderIndex = peopleList[index];
-
-  var murderData = suspectData[randMurderIndex];
-
-  console.log(murderData);
-
-  murderData.murderer +=1;
-
-  console.log(murderData);
-
-  var suspectArgs =
+  if (req.url === '/main')
   {
-    suspectPeople: murderData.hints,
-    murdererName: JSON.stringify(murderData),
-    murdererIndex: index,
-    suspect: suspectData
-  }
+    var peopleList = Object.keys(suspectData);
+    var index = Math.floor(Math.random() * peopleList.length)
+    var randMurderIndex = peopleList[index];
 
-  res.render('mainPage', suspectArgs);
-  res.status(200);
+    var murderData = suspectData[randMurderIndex];
+
+    murderData.murderer +=1;
+
+    var hintArray = murderData; //array to hold randomly chosen hints
+
+    if (hintArray.hints.length !== 3) //loop through and randomly delete hints until three are sent to be served to page
+    {
+      for (var i = 0; i < hintArray.hints.length - 3; i++)
+      {
+        console.log("in");
+        var random = Math.floor(Math.random() * hintArray.hints.length)
+        hintArray.hints.splice(random, 1);
+      }
+    }
+    console.log("Murderer: ", murderData);
+    console.log("hintsArray: ", hintArray.hints);
+
+    var suspectArgs =
+    {
+      suspectPeople: hintArray.hints,
+      murdererName: JSON.stringify(murderData),
+      murdererIndex: index,
+      suspect: suspectData
+    }
+
+    res.render('mainPage', suspectArgs);
+    res.status(200);
+  }
+  else
+  {
+    next();
+  }
 });
 
 app.get('/suspects', function(req, res, next) //Renders page which shows suspects
