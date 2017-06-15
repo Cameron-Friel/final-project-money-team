@@ -19,11 +19,15 @@ getModal.addEventListener('click', function()
 closeButton.addEventListener('click', function () {
   backdrop.classList.add('hidden');
   twitModal.classList.add('hidden');
+  suspectNameContent.value = '';
+  suspectAgeContent.value = '';
 });
 
 cancelButton.addEventListener('click', function () {
   backdrop.classList.add('hidden');
   twitModal.classList.add('hidden');
+  suspectNameContent.value = '';
+  suspectAgeContent.value = '';
 });
 
 acceptButton.addEventListener('click', function () {
