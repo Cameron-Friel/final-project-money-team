@@ -180,6 +180,8 @@ body
   font-size: 30px;
 }
 
+
+
 /*Suspect.handlebars css*/
 
 #about-picture-container
@@ -189,6 +191,8 @@ body
   margin-right: 30%;
   padding: 10px;
   background-color: #b30000;
+  padding-top: 25px;
+  margin-bottom: 20px;
 }
 
 .aboutContainer
@@ -423,6 +427,14 @@ body
 {
   text-align: center;
   color: black;
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: #b30000;
+  color: black;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 10px;
+  border: black solid 2px;
 
 }
 
