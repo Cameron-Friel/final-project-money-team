@@ -194,12 +194,12 @@ body
   position: fixed;
   margin-left: 10px;
   text-align: center;
-  height: 280px;
+  height: auto;
 }
 
 #add-suspect-button
 {
-  width: 250px;
+  width: 20%;
   height: 50px;
   left: 10px;
   top: 220px;
@@ -209,6 +209,7 @@ body
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   border-radius: 10px;
+  margin-bottom: 10px;
 
 }
 
@@ -299,7 +300,7 @@ body
   width: auto;
   max-width: 600px;
   min-width: 350px;
-  min-height: 300px;
+  min-height: 270px;
   margin: 40px auto;
   background-color: #fff;
   border-radius: 15px;
@@ -383,4 +384,8 @@ body
 
 .modal-footer .modal-accept-button:hover {
   background-color: #087dde;
+}
+
+.suspect-about-body{
+  text-align: center;
 }

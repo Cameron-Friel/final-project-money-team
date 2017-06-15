@@ -66,7 +66,7 @@ function createSuspect()
   }
   else
   {
-    alert("You need to input a question.");
+    alert("Please Enter New Hint");
   }
 }
 
