@@ -111,7 +111,7 @@ app.get('/suspects', function(req, res, next) //Renders page which shows suspect
   res.status(200);
 });
 
-app.get('/suspect/:suspect', function(req, res, next)
+app.get('/suspectInfo/:suspect', function(req, res, next)
 {
   var suspect = req.params.suspect;
   var singleData = suspectData[suspect];
@@ -143,7 +143,7 @@ app.get('/suspect/:suspect', function(req, res, next)
       suspects: suspectsArray
     }
 
-    res.render('suspect', suspectArgs);
+    res.render('suspectInfo', suspectArgs);
     res.status(200);
   }
   else
