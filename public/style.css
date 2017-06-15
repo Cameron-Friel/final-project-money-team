@@ -184,19 +184,32 @@ body
   position: fixed;
 }
 
+.aboutSuspectContainer
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 20%;
+  border: solid;
+  border-radius: 10%;
+  display: inline-block;
+  position: fixed;
+  margin-left: 10px;
+  text-align: center;
+  height: 280px;
+}
+
 #add-suspect-button
 {
   width: 250px;
   height: 50px;
   left: 10px;
   top: 220px;
-  position: fixed;
-  position: relative;
+
   background-color: #ff0000;
   border-color: #ff0000;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   border-radius: 10px;
+
 }
 
 #add-suspect-button:hover
