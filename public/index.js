@@ -1,63 +1,161 @@
-var suspects = document.getElementsByClassName('suspect-container');
-var suspectHolder = []; //array to hold suspect containers
-var counter = 0; //var to keep track of how many guesses user has used up (max = 3)
+//for suspect page
 
-suspects[murderIndex].addEventListener('click', function()
+function addModal()
 {
-  alert('Congratulations! You Won!');
-  location.href = "statistics"; //WE WANT THIS TO ROUTE TO WINNER PAGE SENDING MURDERER DATA TO PAGE!
+  var backdrop = document.getElementById('modal-backdrop');
+  var suspectModal = document.getElementById('create-twit-modal');
+
+  backdrop.classList.remove('hidden');
+  suspectModal.classList.remove('hidden');
+}
+
+function closeModal()
+{
+  var backdrop = document.getElementById('modal-backdrop');
+  var suspectModal = document.getElementById('create-twit-modal');
+
+  backdrop.classList.add('hidden');
+  suspectModal.classList.add('hidden');
+
+  clearInputs();
+}
+
+function clearInputs()
+{
+  var suspectNameContent = document.getElementById('twit-text-input');
+  var suspectAgeContent = document.getElementById('twit-attribution-input');
+
+  suspectNameContent.value = '';
+  suspectAgeContent.value = '';
+}
+
+function getSuspect()
+{
+  var pathComponents = window.location.pathname.split('/');
+  if (pathComponents[0] !== '' && pathComponents[1] !== 'suspect')
+  {
+    return null;
+  }
+  return pathComponents[2];
+}
+
+function createSuspect()
+{
+  hint = document.getElementById('twit-text-input').value || '';
+  //url = document.getElementById('twit-attribution-input').value || '';
+  console.log(hint);
+  //console.log(name);
+  //console.log(age);
+
+  if (hint != '')
+  {
+    var suspectID = getSuspect();
+    if (suspectID)
+    {
+      console.log("Suspect: ", suspectID);
+      storeSuspect(suspectID, hint, function(err)
+      {
+        if (err)
+        {
+         alert("Unable to save question.  Got this error:\n\n" + err);
+        }
+      });
+    }
+
+    closeModal();
+  }
+  else
+  {
+    alert("You need to input a question.");
+  }
+}
+
+function storeSuspect(suspectID, hint)
+{
+  var postURL = "/suspect/" + suspectID + "/addSuspect";
+
+  var postRequest = new XMLHttpRequest();
+  postRequest.open('POST', postURL);
+  postRequest.setRequestHeader('Content-Type', 'application/json');
+
+  postRequest.addEventListener('load', function (event)
+  {
+    var error;
+    if (event.target.status !== 200)
+    {
+      error = event.target.response;
+    }
+    callback(error);
+  });
+
+  var postBody =
+  {
+    hint: hint
+  };
+
+  postRequest.send(JSON.stringify(postBody));
+}
+
+/*var getModal = document.getElementById('add-suspect-button');
+var backdrop = document.getElementById('modal-backdrop');
+var twitModal = document.getElementById('create-twit-modal');
+var closeButton = document.querySelector('.modal-close-button');
+var cancelButton = document.querySelector('.modal-cancel-button');
+var acceptButton = document.querySelector('.modal-accept-button');
+var suspectNameContent = document.getElementById('twit-text-input');
+var suspectAgeContent = document.getElementById('twit-attribution-input');
+
+getModal.addEventListener('click', function()
+{
+  backdrop.classList.remove('hidden');
+  twitModal.classList.remove('hidden');
 });
 
-for (var i = suspects.length - 1; i >= 0; i--)
-{
-  suspects[i].addEventListener('click', guessSuspect(i));
-}
+closeButton.addEventListener('click', function () {
+  backdrop.classList.add('hidden');
+  twitModal.classList.add('hidden');
+  suspectNameContent.value = '';
+  suspectAgeContent.value = '';
+});
 
-function guessSuspect(i) //function to delete suspects as they are clicked
-{
-  return function()
-  {
-    console.log("Index: ", murderIndex);
+cancelButton.addEventListener('click', function () {
+  backdrop.classList.add('hidden');
+  twitModal.classList.add('hidden');
+  suspectNameContent.value = '';
+  suspectAgeContent.value = '';
+});
 
-    if (counter == 2 && murderIndex != i)
-    {
-      alert('Sorry You LOSE!');
-      location.reload();
-      //location.href = "404Page";
-    }
-    counter++; //Increment for each guess that is wrong
-
-    for (var j = 0; j < suspects.length; j++)
-    {
-      if (suspects[j] == suspectHolder[i]) //Compares
-      {
-        suspects[j].remove();
-        break;
-      }
-    }
-  };
-}
-
-function addX()
-{
-  if (counter == 0)
-  {
-
+acceptButton.addEventListener('click', function () {
+  if (suspectAgeContent.value === "" || suspectNameContent.value === "") {
+  suspectNameContent.value = '';
+  suspectAgeContent.value = '';
+  alert("Please Enter All Fields!");
   }
-  else if (counter == 1)
-  {
-
+  else {
+    //Add user input to the json file
   }
-  else if (counter == 2)
-  {
+});*/
 
+window.addEventListener('DOMContentLoaded', function (event) {
+
+  var getModal = document.getElementById('add-suspect-button');
+  if (getModal) {
+    getModal.addEventListener('click', addModal);
   }
-}
 
-window.addEventListener('DOMContentLoaded', function () {
-
-  var temp = document.getElementsByClassName('suspect-container'); //hold suspect containers
-  for (var i = 0; i < temp.length; i++) {
-    suspectHolder.push(temp[i]); //push them into array to be fetched while game goes on
+  var closeButton = document.querySelector('.modal-close-button');
+  if (closeButton) {
+    closeButton.addEventListener('click', closeModal);
   }
+
+  var cancelButton = document.querySelector('.modal-cancel-button');
+  if (cancelButton) {
+    cancelButton.addEventListener('click', closeModal);
+  }
+
+  var acceptButton = document.querySelector('.modal-accept-button');
+  if (acceptButton) {
+    acceptButton.addEventListener('click', createSuspect);
+  }
+
 });

@@ -6,4 +6,39 @@
     <h2>More About {{name}} <h2>
   </div>
 
+  <p> In here it would look cool if there was a bigger version of their image with a white background underneath with a longer description of the suspect
+      so the player can get an indea as to who the person really is. In server.js I sent in the single suspect's data and then the rest of the data in two
+      separate variables.</p>
+
+      <button id = "add-suspect-button">Create Suspect</button>
+    </div>
+
+    <div id="modal-backdrop" class="hidden"></div>
+    <div id="create-twit-modal" class="hidden">
+      <div class="modal-dialog">
+
+        <div class="modal-header">
+          <h3>Create a New Suspect</h3>
+          <button type="button" class="modal-close-button">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          <div class="twit-input-element">
+            <label for="twit-text-input">Suspect Name:</label>
+            <textarea id="twit-text-input"></textarea>
+          </div>
+          <div class="twit-input-element">
+            <label for="twit-attribution-input">Suspect URL:</label>
+            <input type="text" id="twit-attribution-input">
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="modal-cancel-button">Cancel</button>
+          <button type="button" class="modal-accept-button">Create Suspect</button>
+        </div>
+
+      </div>
+    </div>
+
 </main>

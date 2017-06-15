@@ -1,6 +1,5 @@
 {
-  "Obama":
-  {
+  "Obama": {
     "name": "Obama",
     "age": "55",
     "about": "44th US President",
@@ -18,8 +17,7 @@
       }
     ]
   },
-  "Rob":
-  {
+  "Rob": {
     "name": "Rob",
     "age": "29",
     "about": "Professor at Oregon State University",
@@ -37,8 +35,7 @@
       }
     ]
   },
-  "Lebron":
-  {
+  "Lebron": {
     "name": "Lebron",
     "age": "32",
     "about": "NBA Player",
@@ -56,8 +53,7 @@
       }
     ]
   },
-  "Alexandra":
-  {
+  "Alexandra": {
     "name": "Alexandra",
     "age": "31",
     "about": "American Actress",
@@ -75,8 +71,7 @@
       }
     ]
   },
-  "Melissa":
-  {
+  "Melissa": {
     "name": "Melissa",
     "age": "28",
     "about": "American Actress and Singer",
@@ -94,8 +89,7 @@
       }
     ]
   },
-  "Kanye":
-  {
+  "Kanye": {
     "name": "Kanye",
     "age": "40",
     "about": "Rapper, Songwriter, Entrepreneur",
@@ -113,8 +107,7 @@
       }
     ]
   },
-  "Oj":
-  {
+  "Oj": {
     "name": "Oj",
     "age": "69",
     "about": "Ex-NFL Player",
@@ -132,8 +125,7 @@
       }
     ]
   },
-  "Kevin":
-  {
+  "Kevin": {
     "name": "Kevin",
     "age": "37",
     "about": "American Actor and Comedian",
@@ -151,8 +143,7 @@
       }
     ]
   },
-  "Mark":
-  {
+  "Mark": {
     "name": "Mark",
     "age": "33",
     "about": "Co-Founder of Facebook",
@@ -170,8 +161,7 @@
       }
     ]
   },
-  "Bill":
-  {
+  "Bill": {
     "name": "Bill",
     "age": "61",
     "about": "Co-Founder of Microsoft",
@@ -189,8 +179,7 @@
       }
     ]
   },
-  "Roger":
-  {
+  "Roger": {
     "name": "Roger",
     "age": "35",
     "about": "Professional Tennis Player",
@@ -208,8 +197,7 @@
       }
     ]
   },
-  "Leo":
-  {
+  "Leo": {
     "name": "Leonardo",
     "age": "42",
     "about": "American Actor",
