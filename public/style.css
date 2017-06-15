@@ -182,6 +182,15 @@ body
 
 /*Suspect.handlebars css*/
 
+#about-picture-container
+{
+  border: solid black 2px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 10px;
+  background-color: #b30000;
+}
+
 .aboutContainer
 {
   position: fixed;
