@@ -395,15 +395,16 @@ body
 
 .bigBox
 {
-  text-align: center;
+  width: 100%;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .boxContainer
 {
+  border: solid black 3px;
   height: 40px;
   width: 40px;
-  border: solid black 5px;
   display: inline-block;
   margin: auto;
 }
@@ -423,25 +424,17 @@ body
   width: 40px;
 }
 
-.xlist{
-  list-style-type: none;
-}
-
-/*
-
-.x-mark3{
-  height: 40px;
-  width: 40px;
-  float: left;
-  border: solid 3px;
-  margin: 3px;
-  margin-left: 0px;
-}
-.x-container{
-  width: 40px;
-  height: 40px;
-  border: solid black 1px;
+.statSubContainerTwo
+{
   display: inline-block;
+  width:1000px;
+  max-width: 70%;
+  align-items: center;
+}
+
+.statTitle
+{
+  text-align: center;
+  color: black;
 
 }
-*/
