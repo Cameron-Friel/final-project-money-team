@@ -260,30 +260,6 @@ body
   opacity: .5;
 }
 
-
-/*
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-/*
-.text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.convict-container:hover .middle {
-  opacity: 1;
-}
-*/
-
 #modal-backdrop {
   position: fixed;
   top: 0;
@@ -399,7 +375,9 @@ body
 }
 
 .suspect-about-body{
-  text-align: center;
+  height: 250px;
+  margin-left: 200px;;
+  margin-right: 20px;
 }
 
 .bigBox
@@ -448,6 +426,13 @@ body
 
 }
 
-.aboutPara{
-  
+.aboutPara
+{
+    float: left;
+}
+
+#aboutTextCont
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
 }
